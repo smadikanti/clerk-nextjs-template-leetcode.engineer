@@ -1,6 +1,6 @@
 import { auth, clerkClient } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
-import { OrgDetails, SessionDetails, UserDetails } from "./details";
+import { OrgDetails, SessionDetails, StripeDetails, UserDetails } from "./details";
 import Link from "next/link";
 
 export default async function DashboardPage() {
@@ -23,6 +23,7 @@ export default async function DashboardPage() {
             <UserDetails />
             <SessionDetails />
             <OrgDetails />
+            <StripeDetails />
           </div>
           {/* <h2 className="mt-16 mb-4 text-3xl font-semibold text-black">
             What's next?
