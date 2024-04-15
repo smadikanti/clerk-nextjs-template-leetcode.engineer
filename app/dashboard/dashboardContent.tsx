@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { OrgDetails, SessionDetails, StripeDetails, UserDetails } from "./details";
-import Chat from "../chat/page";
+import Chat from "../chat/page"
 
 export function DashboardContent() {
   const pathname = usePathname();
@@ -17,7 +17,7 @@ export function DashboardContent() {
           <OrgDetails />
           <StripeDetails />
         </div>
-      ) : pathname === "/chat" ? (
+      ) : pathname === "/chst" ? (
         <div className="mt-8">
           <Chat /> {/* Render the Chat component */}
         </div>
