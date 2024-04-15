@@ -24,7 +24,7 @@ export default async function DashboardPage() {
             <SessionDetails />
             <OrgDetails />
           </div>
-          <h2 className="mt-16 mb-4 text-3xl font-semibold text-black">
+          {/* <h2 className="mt-16 mb-4 text-3xl font-semibold text-black">
             What's next?
           </h2>
           Read the{" "}
@@ -34,7 +34,7 @@ export default async function DashboardPage() {
             target="_blank"
           >
             Clerk Docs -&gt;
-          </Link>
+          </Link> */}
         </>
       )}
     </div>

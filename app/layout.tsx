@@ -49,7 +49,7 @@ export default function RootLayout({
       >
         <body className={`${inter.className} min-h-screen flex flex-col`}>
           <header className="flex items-center h-20 gap-4 px-4 border-b border-black border-solid sm:px-8 border-opacity-20">
-            <Link href="/" className="flex items-center h-20 gap-2 sm:gap-4">
+            {/* <Link href="/" className="flex items-center h-20 gap-2 sm:gap-4">
               <Image
                 src="/clerk.svg"
                 alt="Clerk Logo"
@@ -65,7 +65,7 @@ export default function RootLayout({
                 height={18}
                 priority
               />
-            </Link>
+            </Link> */}
             <div className="grow" />
             <SignedIn>
               <div className="hidden sm:block">
@@ -88,7 +88,7 @@ export default function RootLayout({
           </header>
           <main className="grow">{children}</main>
           <footer className="flex items-center h-20 gap-1 px-8 font-medium border-t md:px-20">
-            <Image
+            {/* <Image
               src="/clerk.svg"
               alt="Clerk Logo"
               width={64}
@@ -128,7 +128,7 @@ export default function RootLayout({
               >
                 <Discord />
               </a>
-            </nav>
+            </nav> */}
           </footer>
         </body>
       </ClerkProvider>
