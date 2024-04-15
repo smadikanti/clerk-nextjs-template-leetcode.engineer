@@ -2,7 +2,7 @@
 
 import { useChat } from 'ai/react';
 
-export default function Page() {
+export default function Chat() {
  const { messages, input, handleInputChange, handleSubmit } = useChat();
 
  return (
